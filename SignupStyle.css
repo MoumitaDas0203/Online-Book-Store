@@ -1,0 +1,83 @@
+label
+{
+  float:left;
+  width:140px;
+  font-family: "Trebuchet MS";
+}
+
+input.user 
+{
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    border-style: inset;
+    box-shadow: 2px 2px 3px #666;
+    font-size: 15px;
+    padding: 4px 7px;
+    outline: 0;
+    background: #bbf0e5;
+    display: inline-block;
+    clear: left;
+    width: 300px;
+	height:50px;
+	font-family: "Trebuchet MS";
+    
+}
+input.submitbutton
+{
+   width: 170px;
+   background-color: #E6E6E6;
+   height:35px;
+   border: 2px ;
+   border-radius: 3px;
+   font-weight: bold;
+   align:center;
+   font-family: "Trebuchet MS";
+   
+}
+#div1
+{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color :#2c3338;
+	font-family: "Trebuchet MS";
+	color : #FFFFFF;
+}
+
+#div2
+{
+    position: fixed;
+    top: 20%; left: 45%;
+    margin-top: -100px; margin-left: -100px;
+    padding: 10px 40px; 
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	color : #FFFFFF;
+}
+h4
+{
+   text-align: center;
+   width: 300px;
+   height:25px;
+   font-size: 20px;
+   padding : 4px;
+   color : #FFCC00;
+   font-family: "Trebuchet MS";
+}
+ a 
+ {
+  color: #FFCC00;
+  text-decoration: none;
+  font-family: "Trebuchet MS";
+  color : #FFFFFF;
+}
+
+a:hover 
+{
+  text-decoration: underline;
+  font-family: "Trebuchet MS";
+}   

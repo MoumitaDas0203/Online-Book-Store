@@ -1,0 +1,35 @@
+<?php
+if(!isset($_SESSION)){
+    session_start();
+}
+?>
+<html>
+	<head>
+		<title="Order History page"</title>
+		<link rel="stylesheet" type="text/css" href="OrderHistoryStyle.css">
+	</head>
+	<body>
+	
+		<div id="div1">
+		<div id="header">
+        <h1>Online Book Store</h1>
+        
+        </div>
+		<div id="div2">
+		<h4>ORDER HISTORY</h4>
+		<form name="historyform" >
+		  <label for="username">Username: </label><input class="user" id="uname" type="text" name="username" value="<?php echo $_SESSION["global_user_name"]?>" /><br/><br/>
+		  <label for="date">Order Date:</label><input class="user" id="orderdate" type="text" name="orderdate" /><br/><br/>
+		  <label for="invoice">Invoice&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label><input class="user" id="invoice" type="text" name="invoice" /><br/><br/><br/>
+		  
+		</form>
+		
+		<a href="wpl1.php">Go Back</a></p>
+		</div>
+		<div id="footer">
+        Copyright © OnlineBookStore.com
+        </div>
+
+		</div>
+	</body>
+</html>

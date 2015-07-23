@@ -1,0 +1,57 @@
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#categories {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:600px;
+     float:left;
+    padding:5px;
+	width:250px; 
+}
+#Display {
+    width:350px;
+    float:left;
+    padding:10px; 
+}
+#footer {
+	position:absolute;
+	bottom:0;
+    background-color:black;
+	height:10px;
+	width:1480px;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:10px;
+	margin-bottom:5px; 
+}
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+table {
+    width: 250%;
+	border-collapse: collapse;
+	border: 0px solid green;
+}
+
+th {
+    height: 100px;
+		width:1200px;
+		column-width:800px;
+		border: 0px solid green;
+		color:black;
+}
+td {
+    padding: 15px;
+	border: 0px solid green;
+}
